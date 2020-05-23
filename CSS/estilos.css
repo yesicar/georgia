@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 435px;
+	width: 1204px;
+	background: url("../imagenes/GEORGIA-Recuperado_02.gif")
+}
+nav{
+	height: 112px;
+	width: 1204px;
+	background:url("../imagenes/imágenes/GEORGIA_02.png")
+}
+.container{
+	width: 948px;
+	height:112px;
+	margin-left:125px;
+}
+ul.meinmenu{
+	padding: 0;
+	margin: 0;
+}
+ul.meinmenu font{
+	list-style:none;
+float:left;
+display: inline;
+color: #FFFFFF;
+padding-left: 35px;
+padding-right: 35px;
+line-height:112px;
+}
+/*columnas*/
+.col1, .col2, .col3{
+	margin-left: 40px;
+	float:left;
+	background:#ccc;
+	height: 300px;
+  margin-top: 15px;
+}
+
+
+.col1{width: 275px; }
+.col2{width: 592px; }
+.col3{width: 907px; }
